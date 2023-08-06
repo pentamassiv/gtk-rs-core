@@ -86,6 +86,9 @@ pub use self::dbus_method_invocation::DBusMethodInvocation;
 mod dbus_object;
 pub use self::dbus_object::DBusObject;
 
+mod dbus_object_manager;
+pub use self::dbus_object_manager::DBusObjectManager;
+
 mod dbus_proxy;
 pub use self::dbus_proxy::DBusProxy;
 
@@ -764,6 +767,7 @@ pub mod traits {
     pub use super::dbus_interface::DBusInterfaceExt;
     pub use super::dbus_interface_skeleton::DBusInterfaceSkeletonExt;
     pub use super::dbus_object::DBusObjectExt;
+    pub use super::dbus_object_manager::DBusObjectManagerExt;
     pub use super::dbus_proxy::DBusProxyExt;
     pub use super::data_input_stream::DataInputStreamExt;
     pub use super::data_output_stream::DataOutputStreamExt;
