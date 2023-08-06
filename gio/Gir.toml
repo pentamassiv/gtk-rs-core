@@ -43,6 +43,7 @@ generate = [
     "Gio.DBusNodeInfo",
     "Gio.DBusObject",
     "Gio.DBusObjectManager",
+    "Gio.DBusObjectManagerClientFlags",
     "Gio.DBusPropertyInfo",
     "Gio.DBusSendMessageFlags",
     "Gio.DBusServer",
