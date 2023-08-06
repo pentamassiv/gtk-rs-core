@@ -547,6 +547,7 @@ pub use self::flags::DBusCapabilityFlags;
 pub use self::flags::DBusConnectionFlags;
 pub use self::flags::DBusInterfaceSkeletonFlags;
 pub use self::flags::DBusMessageFlags;
+pub use self::flags::DBusObjectManagerClientFlags;
 pub use self::flags::DBusProxyFlags;
 pub use self::flags::DBusSendMessageFlags;
 pub use self::flags::DBusServerFlags;
